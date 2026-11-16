@@ -1,20 +1,69 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
-body {
-  background: #20e948;
-  font-family: "Nunito", sans-serif;
-  font-size: 1rem;
+.card {
+    width: 260px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    text-align: center;
+    padding: 15px;
 }
 
-main {
-  max-width: 900px;
-  margin: auto;
-  padding: 0.5rem;
-  text-align: center;
+.card-image {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.card-name {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card-about {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.btn {
+    background: #d8f0d3;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #bfe8b6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+nav img {
+    width: 80px;
+    height: 80px;
+}
+
+nav h1 {
+    color: #106d69;
+    margin-bottom: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
 }
