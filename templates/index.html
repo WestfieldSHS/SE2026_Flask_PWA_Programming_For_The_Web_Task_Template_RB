@@ -1,3 +1,21 @@
-{% extends 'layout.html' %} {% block content %}
-<div class="container"></div>
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="cards">
+
+{% for row in content %}
+
+<div class="cards">
+
+<img class="team-logo" src="{{ row[4] }}" alt="{{ row[1] }}">
+
+<h2 class="card-name">{{ row[1] }}</h2>
+<p class="card-about">{{ row[3] }}</p>
+<p>📍 {{ row[5] }}</p>
+<p>🏆 Premierships: {{ row[7] }}</p>
+<p>📅 Founded: {{ row[6] }}</p>
+
+</div>
+{% endfor %}
+</div>
 {% endblock %}
