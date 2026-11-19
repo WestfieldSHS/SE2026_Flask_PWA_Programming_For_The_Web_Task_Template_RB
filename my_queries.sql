@@ -108,3 +108,39 @@ VALUES (
     '1987',
     '2'
 );
+
+INSERT INTO team(teamID, teamname, hyperlink, description, image, homecity, founded, premierships)
+VALUES (
+    '8',
+    'South Sydney Rabbitohs',
+    'https://en.wikipedia.org/wiki/South_Sydney_Rabbitohs',
+    'The South Sydney District Rugby League Football Club, also known as the South Sydney Rabbitohs, are an Australian professional rugby league football club based in the Sydney suburb of Maroubra that competes in the National Rugby League (NRL). They are often nicknamed Souths or the Bunnies.',
+    'https://thumb.wikimedia.org/wikipedia/en/thumb/a/ae/Newcastle_Knights_logo.svg/250px-Newcastle_Knights_logo.svg.png',
+    'Sydney, NSW',
+    '1908',
+    '21'
+);
+
+INSERT INTO team(teamID, teamname, hyperlink, description, image, homecity, founded, premierships)
+VALUES (
+    '9',
+    'West Tigers',
+    'https://en.wikipedia.org/wiki/Wests_Tigers',
+    'The Wests Tigers are an Australian rugby league football team, based in the Inner West of Sydney and South Western Sydney. The Tigers have competed in the National Rugby League (NRL) since being formed at the end of the 1999 NRL season as a joint-venture club between the Balmain Tigers and the Western Suburbs Magpies.',
+    'static/images/team_logos/tigers.png',
+    'Sydney, NSW',
+    '1999',
+    '1'
+);
+
+INSERT INTO team(teamID, teamname, hyperlink, description, image, homecity, founded, premierships)
+VALUES (
+    '10',
+    'Canterbury-Bankstown Bulldogs',
+    'https://en.wikipedia.org/wiki/Canterbury-Bankstown_Bulldogs',
+    'The Canterbury-Bankstown Bulldogs are an Australian professional rugby league club based in Belmore, a suburb in the Canterbury-Bankstown region of Sydney. They compete in the NRL Telstra Premiership, as well as competitions facilitated by the New South Wales Rugby League, including the NSW Cup, the Jersey Flegg Cup, NSWRL Women"s" Premiership, Tarsha Gale Cup, S. G. Ball Cup and the Harold Matthews Cup.',
+    'static/images/team_logos/bulldogs.png',
+    'Sydney, NSW',
+    '1935',
+    '8'
+);

@@ -40,7 +40,7 @@ nav li {
 nav ul li a {
   text-decoration-line: none;
   text-transform: uppercase;
-  color: #000000;
+  color: #ffffff;
 }
 
 nav ul li a:hover {
@@ -49,12 +49,14 @@ nav ul li a:hover {
 
 nav h1 {
   color: #000000;
+  font-size: 42px;
+  font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minimax(17rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   grid-gap: 1.5rem;
   justify-content: center;
   align-items: center;
@@ -66,7 +68,7 @@ nav h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 17rem;
+  width: 280px;
   background: #fff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   border-radius: 10px;
@@ -75,9 +77,9 @@ nav h1 {
 }
 
 .card-image {
-  width: 100%;
-  height: 15rem;
-  object-fit: cover;
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
 }
 
 .card-name {
@@ -98,7 +100,7 @@ nav h1 {
 
 .btn {
   border: none;
-  background: none;
+  background: #0a347a;
   border-radius: 5px;
   box-shadow: 1px 1px 2px rgba(21, 21, 21, 0.1);
   cursor: pointer;
@@ -107,7 +109,7 @@ nav h1 {
   padding: 0.25rem 2rem;
   transition: all 0.25s ease-in-out;
   background: hsl(0, 0%, 0%);
-  color: hsl(141, 100%, 22%);
+  color: hsl(0, 0%, 97%);
   margin-bottom: 1rem;
 }
 
