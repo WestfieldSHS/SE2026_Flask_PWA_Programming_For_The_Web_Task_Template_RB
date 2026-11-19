@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #fdfdfd;
+  background: #007239;
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
 }
@@ -15,7 +15,7 @@ body {
 main {
   max-width: 1400px;
   margin: auto;
-  padding: 10px;
+  padding: 110px;
 }
 
 nav {
@@ -40,7 +40,7 @@ nav li {
 nav ul li a {
   text-decoration-line: none;
   text-transform: uppercase;
-  color: #393b45;
+  color: #000000;
 }
 
 nav ul li a:hover {
@@ -48,15 +48,18 @@ nav ul li a:hover {
 }
 
 nav h1 {
-  color: #106d69;
+  color: #000000;
   margin-bottom: 0.5rem;
 }
 
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 270px);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minimax(17rem, 1fr));
+  grid-gap: 1.5rem;
   justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem 0;
 }
 
 .card {
@@ -103,7 +106,7 @@ nav h1 {
   margin: 0 1rem;
   padding: 0.25rem 2rem;
   transition: all 0.25s ease-in-out;
-  background: hsl(110, 21%, 93%);
+  background: hsl(0, 0%, 0%);
   color: hsl(141, 100%, 22%);
   margin-bottom: 1rem;
 }

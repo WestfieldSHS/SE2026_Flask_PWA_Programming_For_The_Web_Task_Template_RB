@@ -94,3 +94,17 @@ VALUES (
     '1963',
     '1'
 );
+
+SELECT teamname,founded FROM team where premierships = '6';
+
+INSERT INTO team(teamID, teamname, hyperlink, description, image, homecity, founded, premierships)
+VALUES (
+    '7',
+    'Newcastle Knights',
+    'https://en.wikipedia.org/wiki/Newcastle_Knights',
+    'The Newcastle Knights are an Australian professional rugby league team based in Newcastle, the largest city in the Hunter Region of New South Wales, Australia. The club competes in the National Rugby League (NRL) premiership. Playing in red and blue, the Knights joined the top-tier competition in 1988, 79 years after the previous Newcastle-based team, the Newcastle Rebels, had departed the Sydney competition with the formation of a separate league competition based in the Newcastle region.',
+    'https://thumb.wikimedia.org/wikipedia/en/thumb/a/ae/Newcastle_Knights_logo.svg/250px-Newcastle_Knights_logo.svg.png'
+    'Newcastle, NSW',
+    '1987',
+    '2'
+);
